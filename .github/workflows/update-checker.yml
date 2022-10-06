@@ -56,7 +56,7 @@ jobs:
         fi
     - name: Push Commits
       env:
-        DOWNSTREAM_BRANCH: main
+        DOWNSTREAM_BRANCH: mater
       run: git push origin $DOWNSTREAM_BRANCH
 
     - name: Delete workflow runs
