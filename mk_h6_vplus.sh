@@ -54,7 +54,7 @@ SMB4_PATCH="${PWD}/files/smb4.11_enable_smb1.patch"
 SYSCTL_CUSTOM_CONF="${PWD}/files/99-custom.conf"
 
 # 20200709 add
-COREMARK="${PWD}/files/coremark.sh"
+#COREMARK="${PWD}/files/coremark.sh"
 
 # 20201024 add
 BAL_ETH_IRQ="${PWD}/files/balethirq.pl"
