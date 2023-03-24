@@ -158,7 +158,7 @@ INITRD=/uInitrd
 
 # GT-King Pro S922X-H 标准版 
 # 用于 Belink GT-King Pro (1800Mhz/1908Mhz)
-FDT=/dtb/amlogic/meson-g12b-gtking-pro.dtb
+#FDT=/dtb/amlogic/meson-g12b-gtking-pro.dtb
 
 # GT-King Pro S922X-H 标准版
 # 用于 Belink GT-King Pro (1800Mhz/2208Mhz)
@@ -166,7 +166,7 @@ FDT=/dtb/amlogic/meson-g12b-gtking-pro.dtb
 
 # GT-King Pro S922X-H 超频版
 # 用于 Belink GT-King Pro (2016Mhz/2208Mhz)
-#FDT=/dtb/amlogic/meson-g12b-gtking-pro-h-oc.dtb
+FDT=/dtb/amlogic/meson-g12b-gtking-pro-h-oc.dtb
 
 #UGOOS AM6 Plus
 #FDT=/dev/amlogic/meson-g12b-ugoos-am6.dtb
