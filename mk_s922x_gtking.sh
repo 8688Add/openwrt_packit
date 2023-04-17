@@ -158,7 +158,7 @@ INITRD=/uInitrd
 
 # GT-King Pro S922X-H 标准版 
 # 用于 Belink GT-King Pro (1800Mhz/1908Mhz)
-FDT=/dtb/amlogic/meson-g12b-gtking-pro.dtb
+#FDT=/dtb/amlogic/meson-g12b-gtking-pro.dtb
 
 # GT-King Pro S922X-H 标准版
 # 用于 Belink GT-King Pro (1800Mhz/2208Mhz)
@@ -166,13 +166,16 @@ FDT=/dtb/amlogic/meson-g12b-gtking-pro.dtb
 
 # GT-King Pro S922X-H 超频版
 # 用于 Belink GT-King Pro (2016Mhz/2208Mhz)
-#FDT=/dtb/amlogic/meson-g12b-gtking-pro-h-oc.dtb
+FDT=/dtb/amlogic/meson-g12b-gtking-pro-h-oc.dtb
 
 #UGOOS AM6 Plus
 #FDT=/dev/amlogic/meson-g12b-ugoos-am6.dtb
 
 # Khadas vim3
 #FDT=/dev/amlogic/meson-g12b-a311d-khadas-vim3.dtb
+
+# Ali CT2000
+#FDT=/dev/amlogic/meson-g12b-ali-ct2000.dtb
 
 APPEND=root=UUID=${ROOTFS_UUID} rootfstype=btrfs rootflags=compress=zstd:${ZSTD_LEVEL} console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0 cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory swapaccount=1
 EOF
